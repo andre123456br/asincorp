@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS incorporada</title>
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
+    <script src="assets\bootstrap\dist\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,600&family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,600;1,500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<header>
+    <div class="header d-flex justify-content-between align-items-center justify-content-sm-center align-items-md-center">
+        <div>
+            <img class="logo-as" src="assets/img/logo-as.svg" alt="LOGO">
+        </div>
+
+        <div>
+            <nav>
+                <ul class="d-flex">
+                    <li>HOME</li>
+                    <li>EMPREDIMENTOS</li>
+                    <li>BLOG</li>
+                    <li>CONTATO</li>
+                </ul>
+            </nav>
+        </div>
+            
+        <div class="buttons">
+            <button class="button-cola"><img src="assets/img/icon-colaboradores.svg" alt="icon">COLABORADOR</button>
+
+            <button class="button-cliente"><img src="assets/img/icon-cliente.svg" alt="icon">CLIENTE</button>
+        </div>
+
+        <div class="menu" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+
+          <script>
+          function myFunction(x) {
+            x.classList.toggle("change");
+          }</script>
+    </div>
+
+    <div class="frase-header">
+        <div class="titulos-header">
+            <h1>CONTATO</h1>
+            <p>Home | Contato</p>
+            <div class="line-red"></div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="form-options">
+        <form class="form-blog" action="post">
+         <div class="d-flex">
+            <div>
+                <div class="options-text">
+                <input type="text" placeholder="Nome">
+                </div>
+
+                <div class="options-tel">
+                    <input type="tel" placeholder="Telefone">
+                </div>
+
+                <div class="options-email">
+                    <input type="email" placeholder="E-mail">
+                </div>
+
+                <div class="options-text-2">
+                    <input type="text" placeholder="Assunto">
+                </div>
+            </div>
+            <div>
+                <textarea name="" id="" cols="72" rows="11" placeholder="Digite sua mensagem"></textarea>
+            </div>
+        </div>
+        </form>
+
+        <div class="description d-flex justify-content-around">
+
+            <p>*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique non augue ut mattis. <br> Suspendisse potenti. In diam mauris, luctus accumsan commodo id, viverra non ante.</p>
+
+            <button class="msg">ENVIAR MENSAGEM*</button>
+        </div>
+
+        <div class="localization">
+            <h3>ONDE <b> ESTAMOS </b></h3>
+            
+            <div class="line-black"></div> 
+
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.8965755878!2d-51.41902944997038!3d-22.129918685340737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9493f43818bc1b13%3A0xb5099102a2a614d0!2sAS%20Incorporadora!5e0!3m2!1spt-BR!2sbr!4v1659981782533!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    
+         </div>
+        
+         <div class="central">
+            <div class="central-atendimento">
+                <p>Atendimento</p>
+                <div class="img-central">
+                    <img src="assets/img/icon-localizacao.svg" alt="localiza~]ao"> <p>Seg à Sex das 8hs às 18hs</p>
+                </div>
+            </div>
+
+            <div class="central-ajuda">
+                <p>Central de Atendimento</p>
+                <div class="img-central-2">
+                    <img src="assets/img/icon-cell.svg" alt="cell"> <p>18 3916 2287</p>
+                </div>
+            </div>
+
+        <div class="central-zap">
+                <p>Whatsapp</p>
+            <div class="img-central-3">
+                <img src="assets/img/icon-whats.svg" alt="whats"> <p>18 3916 2287</p>
+            </div>
+        </div>
+         </div>
+    </div>
+
+<footer>
+    <div class="receba-email">
+        <div class="container">
+            <h2>RECEBA NOVIDAS <br> <b> POR E-MAIL </b></h2>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="receba-formulario">
+
+            <form class="form-home" action="post">
+                <div>
+                    <input class="input-one" type="text" placeholder="Digite seu nome">
+                </div>
+                <div class="input-email">
+                    <input class="input-two" type="email" placeholder="Digite seu e-mail">
+                </div>
+            </form>
+
+            <button class="button-email">RECEBER NOVIDADES</button>
+        </div>
+    </div>
+
+
+<div class="d-flex">
+
+    <div class="suportes">
+        <div class="suporte d-flex flex-column">
+            <h1>Atendimento</h1>
+            <div class="d-flex">
+                <img id="imagem-loc" src="assets/img/icon-localizacao.svg" alt="loca"> <p id="horarios">Seg à Sex
+                das 8hs às 18hs</p>
+            </div>
+            <div class="atendimento">  
+                <h1>Central de atendimento</h1>
+                <div class="d-flex">
+                    <img src="assets/img/icon-cell.svg" alt="cell"> <p>18 3916 2287</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="suportes">
+    <div>
+        <div class="suporte d-flex flex-column">
+            <ul class="ul">
+                <li class="itens" id="li-1"></li>> HOME</li>
+                <li class="itens" id="li-2"></li>> BLOG</li>
+                <li class="itens" id="li-3"></li>> CONTATO</li>
+                <li class="itens" id="li-4"></li>> TRABALHE CONOSCO</li>
+            </ul>
+    
+            </div>
+            <div class="Política">  
+                <p>Política de Privacidade</p>
+
+                <p>Preferência de Cookies</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="suportes">
+        <div class="suporte d-flex flex-column">
+            <ul class="ul">
+                <li class="itens" id="ul-1"></li>> Empreendimentos</li>
+                <li class="itens" ></li>> OBRAS CONCLUÍDAS</li>
+                <li class="itens"></li>> OBRAS EM ANDAMENTO</li>
+                <li class="itens" id="ul-2"></li>> OFEREÇA SUA ÁREA</li>
+            </ul>
+    
+            </div>
+    </div>
+
+    <div class="suportes">
+        <div class="suporte d-flex flex-column">
+           
+            <div class="suporte d-flex flex-column">
+                <button class="button-cola" id="footer-button"><img src="assets/img/icon-colaboradores.svg" alt="icon">COLABORADOR</button>
+    
+                <button class="button-cliente" id="footer-button-two"><img src="assets/img/icon-cliente.svg" alt="icon">CLIENTE</button>
+            </div>
+
+            <div class="icons">  
+
+                <img id="youtube" src="assets/img/icon-yt.svg" alt="yt">
+                <img src="assets/img/icon-face.svg" alt="face">
+                <img id="linkdin" src="assets/img/Group 29.svg" alt="">
+
+
+                
+            </div>
+            </div>
+    </div>
+</div>
+        <div class="linha-cinza"></div>
+
+    <div class=" direitos-footer d-flex">
+
+        <img id="logo-footer" src="assets/img/logo-2.svg" alt="logo">
+        
+        <p>Todos os direitos reservados © 2021 | AS Icorporadora - CRECI 021030-J - Criação</p>
+
+        <img id="logo-ox" src="assets/img/logo-oxingen.svg" alt="ox">
+    </div>
+
+    <div class="forms">
+
+        <div class="footer-direitos">
+            <img src="assets/img/icon-form.svg" alt="form">
+            <div class="footer-p">
+                <p> <b> Formulário </b> <br> de contato</p>
+
+            </div>
+        </div>
+        
+        <div class="footer-direitos">
+            <img src="assets/img/icon-cell-2.svg" alt="cell">
+            <div class="footer-p">
+                <p> <b> Vendas </b> <br> 18 3916 2287</p>
+                
+            
+            </div>
+        </div>
+
+        <div class="footer-direitos">
+            <img src="assets/img/icon-whats.svg" alt="whats">
+            <div class="footer-p">
+                <p> <b> Whatsapp </b> <br> 18 3916 2287</p>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+</main>
+</body>
+
+</html>

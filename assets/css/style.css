@@ -1,0 +1,468 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+header{
+    background-color: #FFFFFF;
+}
+.header{
+    width: 100%;
+    height: 91px;
+    font-family: 'Montserrat'
+}
+.logo-as{
+    position: absolute;
+    margin-left: -80px;
+    margin-top: -20px;
+}
+.header button{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    border-radius: 3px;
+}
+.button-cola{
+    background: #000000;
+    width: 202px;
+    height: 51px;
+    margin-right: 10px;
+}
+button img{
+    margin-right: 10px;
+}
+.button-cliente{
+    margin-right: 10px;
+    width: 143px;
+    height: 51px;
+    background-color: #8A1002;
+}
+.buttons{
+  margin-left: 52px;
+}
+.header ul{
+    list-style-type: none; 
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    
+    margin-top: 20px;
+    
+}
+@media  (max-width: 768px) {
+    .header{
+        justify-content: space-between;
+    }
+}
+@media (max-width: 868px) {
+    li{
+        display: none;
+    }
+}
+@media  (max-width: 500px) {
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+ul li{
+    margin-left: 70px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+}
+.menu {
+    display: none;
+    cursor: pointer;
+
+  }
+  .container{
+    max-width: 1111px;
+    padding-top: 100px;
+  }
+  .container h2{
+    margin-right: 20px;
+    margin-top: 47px;
+    padding-right: 40px;
+  }
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+  @media  (width:768px) {
+    .menu{
+        display: block;
+        display: flex;
+    }
+  }
+  .frase-header{
+    background-color: #000000;
+    width: 100%;
+    height: 252px;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+  }
+  main{
+
+  }
+  .form-options{
+    background: #E5E5E5;
+    padding-bottom: 40px;
+  }
+  .form-blog{
+    display: flex;
+    margin-left: 86px;
+    flex-direction: column;
+    
+    color: #000000;
+  }
+  .options-text{
+    margin-top: 48px;
+    display: flex;
+    
+  }
+  .options-tel{
+    margin-top: 22px;
+  }
+  .options-email{
+    margin-top: 22px;
+  }
+  .options-text-2{
+    margin-top: 22px
+  }
+  textarea{
+    margin-left: 20px;
+    margin-top: 50px;
+    color: #000000;
+  }
+  input{
+    width: 543px;
+    height: 51px;
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+ }
+ .description{
+  margin-top: 17px;
+  margin-right: 14px;
+ }
+ .description p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130.7%;
+  color: #808080;
+ }
+ .msg{
+  width: 276px;
+  height: 50px;
+  background: #8A1002;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;  
+ }
+ .localization{
+  background: #E5E5E5;
+  margin-top: 80px;
+  
+ }
+ .localization h3{
+  color: #8A1002;
+  margin-left: 75px;
+  margin-bottom: 20px;
+  
+ }
+ .line-black{
+  width: 1116px;
+  height: 9px;
+  background: #000000;
+  margin-left: 80px;
+ }
+ .line{
+  width: 1116px;
+  height: 9px;
+  background: rgba(255, 255, 255, 0.15);
+  margin-left: 110px;
+ }
+ iframe{
+  width: 1116px;
+  height: 435px;
+  margin-left: 79px;
+ }
+ .central{
+  margin-left: 74px;
+  display: flex;
+  justify-content: space-around;
+  color: #F6F6F6;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  width: 1116px;
+  height: 188px;
+  background: #0D0D0D;
+  border-radius: 3px;
+  margin-top: 86px;
+ }
+
+ .central p{
+  margin-left: 7px;
+
+ }
+ .central-atendimento{
+  margin-top: 40px;
+  margin-left: 20px;
+ }
+ .central-ajuda{
+  margin-top: 40px;
+ }
+ .central-zap{
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 239px;
+  height: 79px; 
+  background: #028A49;
+  border-radius: 3px;
+ }
+ .img-central{
+  display: flex;
+ }
+ .img-central p{
+  margin-top: 8px;
+ }
+ .img-central-2{
+  display: flex;
+ }
+ .img-central-2 p{
+  margin-top: 8px;
+ }
+ .img-central-3{
+  display: flex;
+ }
+ .img-central-3 p{
+  margin-top: 8px;
+ }
+  .titulos-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .line-red{
+    width: 925px;
+  height: 9px;
+  margin-top: 33px;
+  margin-left: 170px;
+  top: 334px;
+  background: #8A1002;
+  }
+  .linha-cinza{
+    width: 1006px;
+    height: 1px;
+    background: #C4C4C4;
+    margin-left: 140px;
+    margin-bottom: 29px;
+  }
+  .frase-header p{
+    margin-top: 14px;
+    color: #767676;
+  }
+  .frase-header h1{
+    margin-top: 100px;
+  }
+  .atendimento{
+    margin-top: 110px;
+  }
+  .suporte h1{
+    
+      font-size: 18px;
+      color: #000000;
+    
+  }
+  .receba-email{
+    
+    width: 100%;
+    height: 458px;
+    background-color:  #0D0D0D;
+  }
+  .receba-email h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    max-width: 711px;
+  }
+  .input-email{
+    margin-left: 12px;
+    width: 182px;
+    height: 51px;
+  }
+  .receba-formulario{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .button-email{
+    width: 292px;
+    height: 51px;
+    background: #8A1002;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  .form-home{
+    display: flex;
+    justify-content: space-around;
+  }
+  .input-one{
+    width: 282px;
+    height: 51px;
+  }
+  .suportes{
+    margin-left: 70px;
+    margin-top: 77px;
+  }
+  .suporte p{
+    font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 10px;
+  }
+  #horarios{
+    max-width: 137px;
+  }
+  #imagem-loc{
+    margin-bottom: 25px;
+  }
+  .Política{
+    margin-top: 10px;
+    margin-left: 34px;
+    padding-top: -14px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 31px;
+    text-decoration-line: underline;
+    color: #000000;
+  }
+  .itens{
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 35px;
+    font-family: 'Montserrat';
+    color: #000000;
+  }
+  #li-2{
+    padding-top: 20px;
+  }
+  #li-3
+  .ul{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 233px;
+    color: #000000;
+    line-height: 35px;
+    text-transform: uppercase;
+    margin-bottom: 39px;
+  }
+  #footer-button{
+    color: #FFFFFF;
+    width: 221px;
+    
+  }
+  #footer-button-two{
+    color: #FFFFFF;
+    margin-top: 20px;
+    width: 221px;
+  }
+  .icons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 51px;
+    margin-top: 77px;
+  }
+  #youtube{
+    margin-right: 20px;
+  }
+  #linkdin{
+    margin-left: 20px;
+  }
+  .direitos-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 95px;
+  }
+  #logo-footer{
+    Width:256px;
+    Height:47.23px;
+    margin-right: 20px;
+  }
+  #logo-ox{
+    Width:70.07px;
+    Height:41.23px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+  #footer-pp{
+   
+  }
+  .forms{
+    padding-left: 40px;
+    padding-right: 45px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+    height:70px;
+    background-color: #028A49;
+  }
+  .footer-direitos{
+    display: flex;
+    margin-top: 7px;
+    color: #F6F6F6;;
+
+  }
+  .footer-direitos img{
+    width: 28px;
+    height: 28px;
+    margin: 12px;
+  }
